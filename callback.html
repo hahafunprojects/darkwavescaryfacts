@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Authorized</h1>
+<script>
+  const params = new URLSearchParams(window.location.search);
+  document.body.innerHTML += '<p>Code: ' + params.get('code') + '</p>';
+</script>
+</body>
+</html>
